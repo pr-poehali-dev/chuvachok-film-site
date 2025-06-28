@@ -12,15 +12,15 @@ const Hero = () => {
 
         <p className="font-open-sans text-xl md:text-2xl text-gray-600 mb-8 max-w-2xl mx-auto leading-relaxed">
           <span className="text-purple-700 font-semibold">
-            Уникальная детская киностудия!
+            Уникальная киностудия!
           </span>{" "}
           Создаём кинематографические проекты, которые остаются в памяти. От
-          идеи до большого экрана — всё делают дети.
+          идеи до большого экрана — всё делается профессионально.
         </p>
 
         <div className="flex flex-col sm:flex-row gap-4 justify-center items-center">
           <a
-            href="https://youtube.com"
+            href="https://youtube.com/@chuvachokproduction?si=gi2izZ7JXrymzJtZ"
             target="_blank"
             rel="noopener noreferrer"
             className="inline-flex items-center gap-3 bg-purple-600 text-white px-8 py-4 rounded-full font-medium hover:bg-purple-700 transition-all duration-300 hover:scale-105"
