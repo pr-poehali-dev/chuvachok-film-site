@@ -14,33 +14,6 @@ const Gallery = () => {
     },
     {
       id: 2,
-      title: "Граф Табуреткин",
-      description: "Постер комедийного фильма",
-      image:
-        "https://cdn.poehali.dev/files/bbdf6fc9-9ad5-463e-b7b7-411b452bee59.jpeg",
-      category: "Постеры",
-      project: "Граф Табуреткин",
-    },
-    {
-      id: 3,
-      title: "Король Фон Чарли",
-      description: "Кадр из сериала",
-      image:
-        "https://cdn.poehali.dev/files/e1d4d44d-1c24-4120-83fc-543ccb2677b6.jpeg",
-      category: "Кадры",
-      project: "Король Фон Чарли",
-    },
-    {
-      id: 4,
-      title: "Закатное настроение",
-      description: "Атмосферная съемка в золотых тонах",
-      image:
-        "https://cdn.poehali.dev/files/3e42c2cd-f92d-4a40-88fe-794c45b7b320.jpeg",
-      category: "Фотография",
-      project: "Портретная серия",
-    },
-    {
-      id: 5,
       title: "Портрет в контражуре",
       description: "Игра света и тени в портретной съемке",
       image:
@@ -49,7 +22,7 @@ const Gallery = () => {
       project: "Портретная серия",
     },
     {
-      id: 6,
+      id: 3,
       title: "Минималистичный кадр",
       description: "Чистая композиция с акцентом на форму",
       image:
@@ -58,7 +31,7 @@ const Gallery = () => {
       project: "Портретная серия",
     },
     {
-      id: 7,
+      id: 4,
       title: "Арт-композиция",
       description: "Экспериментальная работа с цветом и формой",
       image:
