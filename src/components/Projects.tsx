@@ -11,6 +11,8 @@ const Projects = () => {
       status: "Завершён",
       icon: "Camera",
       color: "bg-red-500",
+      image:
+        "https://cdn.poehali.dev/files/d2f98bef-8d3a-4e1a-8bd1-6a762dd7382b.jpeg",
       trailerUrl: "https://youtu.be/lWK00Fb6WRk?si=0aI3DZw9THoT09oY",
     },
     {
@@ -68,6 +70,16 @@ const Projects = () => {
                 </div>
               </div>
 
+              {project.image && (
+                <div className="mb-6">
+                  <img
+                    src={project.image}
+                    alt={project.title}
+                    className="w-full h-48 object-cover rounded-lg shadow-md"
+                  />
+                </div>
+              )}
+
               <p className="font-open-sans text-gray-600 mb-6 leading-relaxed">
                 {project.description}
               </p>
@@ -91,7 +103,10 @@ const Projects = () => {
                       className="flex items-center gap-1 px-3 py-1 bg-red-600 text-white rounded-full text-sm font-medium hover:bg-red-700 transition-colors"
                     >
                       <Icon name="Play" size={14} />
-                      Трейлер
+                      {project.title === "Граф Табуреткин" ||
+                      project.title === "Король Фон Чарли"
+                        ? "Серия"
+                        : "Трейлер"}
                     </a>
                   )}
                 </div>
