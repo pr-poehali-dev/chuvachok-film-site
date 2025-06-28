@@ -23,6 +23,8 @@ const Projects = () => {
       status: "Завершён",
       icon: "Smile",
       color: "bg-yellow-500",
+      image:
+        "https://cdn.poehali.dev/files/bbdf6fc9-9ad5-463e-b7b7-411b452bee59.jpeg",
       trailerUrl: "https://youtu.be/8WZORFCMgkM?feature=shared",
     },
     {
@@ -33,6 +35,8 @@ const Projects = () => {
       status: "В разработке",
       icon: "Crown",
       color: "bg-purple-500",
+      image:
+        "https://cdn.poehali.dev/files/e1d4d44d-1c24-4120-83fc-543ccb2677b6.jpeg",
       trailerUrl: "https://youtu.be/1_x2crH6r8U?si=nqkeew3dXYj2xMad",
     },
   ];
