@@ -5,6 +5,7 @@ import About from "@/components/About";
 import Team from "@/components/Team";
 import Projects from "@/components/Projects";
 import Gallery from "@/components/Gallery";
+import YouTubeSubscribe from "@/components/YouTubeSubscribe";
 
 const Index = () => {
   return (
@@ -15,6 +16,7 @@ const Index = () => {
       <Team />
       <Projects />
       <Gallery />
+      <YouTubeSubscribe />
     </div>
   );
 };
