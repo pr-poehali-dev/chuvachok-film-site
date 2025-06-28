@@ -30,6 +30,42 @@ const Gallery = () => {
       category: "Кадры",
       project: "Король Фон Чарли",
     },
+    {
+      id: 4,
+      title: "Закатное настроение",
+      description: "Атмосферная съемка в золотых тонах",
+      image:
+        "https://cdn.poehali.dev/files/3e42c2cd-f92d-4a40-88fe-794c45b7b320.jpeg",
+      category: "Фотография",
+      project: "Портретная серия",
+    },
+    {
+      id: 5,
+      title: "Портрет в контражуре",
+      description: "Игра света и тени в портретной съемке",
+      image:
+        "https://cdn.poehali.dev/files/15c6f41e-6e36-4efc-8b98-f59f9d1e19c3.jpeg",
+      category: "Фотография",
+      project: "Портретная серия",
+    },
+    {
+      id: 6,
+      title: "Минималистичный кадр",
+      description: "Чистая композиция с акцентом на форму",
+      image:
+        "https://cdn.poehali.dev/files/fc838896-89a1-477f-a7bc-f77faba209f6.jpeg",
+      category: "Фотография",
+      project: "Портретная серия",
+    },
+    {
+      id: 7,
+      title: "Арт-композиция",
+      description: "Экспериментальная работа с цветом и формой",
+      image:
+        "https://cdn.poehali.dev/files/499d80bc-55fb-49fc-b237-6d2fa53772c1.png",
+      category: "Арт",
+      project: "Экспериментальная серия",
+    },
   ];
 
   return (
