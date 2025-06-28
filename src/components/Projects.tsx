@@ -92,7 +92,6 @@ const Projects = () => {
                       Трейлер
                     </a>
                   )}
-                  <Icon name="ArrowRight" size={16} className="text-gray-400" />
                 </div>
               </div>
             </div>
