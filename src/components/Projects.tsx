@@ -21,6 +21,7 @@ const Projects = () => {
       status: "Завершён",
       icon: "Smile",
       color: "bg-yellow-500",
+      trailerUrl: "https://youtu.be/8WZORFCMgkM?feature=shared",
     },
     {
       title: "Король Фон Чарли",
@@ -30,6 +31,7 @@ const Projects = () => {
       status: "В разработке",
       icon: "Crown",
       color: "bg-purple-500",
+      trailerUrl: "https://youtu.be/1_x2crH6r8U?si=nqkeew3dXYj2xMad",
     },
   ];
 
