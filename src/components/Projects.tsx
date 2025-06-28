@@ -11,6 +11,7 @@ const Projects = () => {
       status: "Завершён",
       icon: "Camera",
       color: "bg-red-500",
+      trailerUrl: "https://youtu.be/lWK00Fb6WRk?si=0aI3DZw9THoT09oY",
     },
     {
       title: "Граф Табуреткин",
@@ -79,7 +80,20 @@ const Projects = () => {
                 >
                   {project.status}
                 </span>
-                <Icon name="ArrowRight" size={16} className="text-gray-400" />
+                <div className="flex items-center gap-2">
+                  {project.trailerUrl && (
+                    <a
+                      href={project.trailerUrl}
+                      target="_blank"
+                      rel="noopener noreferrer"
+                      className="flex items-center gap-1 px-3 py-1 bg-red-600 text-white rounded-full text-sm font-medium hover:bg-red-700 transition-colors"
+                    >
+                      <Icon name="Play" size={14} />
+                      Трейлер
+                    </a>
+                  )}
+                  <Icon name="ArrowRight" size={16} className="text-gray-400" />
+                </div>
               </div>
             </div>
           ))}
