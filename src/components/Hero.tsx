@@ -11,8 +11,11 @@ const Hero = () => {
         </h1>
 
         <p className="font-open-sans text-xl md:text-2xl text-gray-600 mb-8 max-w-2xl mx-auto leading-relaxed">
+          <span className="text-purple-700 font-semibold">
+            Уникальная детская киностудия!
+          </span>{" "}
           Создаём кинематографические проекты, которые остаются в памяти. От
-          идеи до большого экрана.
+          идеи до большого экрана — всё делают дети.
         </p>
 
         <div className="flex flex-col sm:flex-row gap-4 justify-center items-center">
